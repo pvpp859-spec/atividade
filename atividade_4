@@ -1,0 +1,14 @@
+import os
+os.system("cls")
+lista = []
+
+
+cidades = input("escolha uma cidade: "),input("escolha outra cidade: "),input("escolha a ultima cidade: ")
+lista.extend(cidades)
+
+tupla = tuple(lista)
+cidade_1,cidade_2,cidade_3 = tupla
+
+print("cidade 1: ", cidade_1)
+print("cidade 2: ", cidade_2)
+print("cidade 3: ", cidade_3)

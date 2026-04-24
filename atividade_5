@@ -1,0 +1,10 @@
+
+def dobrar_numero():
+    try:
+        numero = float(input("escolha um numero: "))
+        dobro = numero + numero
+        return(dobro)
+    except ValueError:
+        print("por favor digite apenas numeros")
+
+dobrar_numero()        

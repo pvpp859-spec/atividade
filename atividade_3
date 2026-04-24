@@ -1,0 +1,13 @@
+
+def contar_vogais(texto):
+    total = 0
+    for letra in texto:
+        if letra in "aeiou":
+            total += 1
+    return total        
+
+
+texto = str(input("qual seu texto: ")).lower()
+contar_vogais(texto)
+print(f"o total de vogais é : {contar_vogais(texto)}")
+

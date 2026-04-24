@@ -1,0 +1,11 @@
+import javax.swing.JFrame;
+
+public class MinhaJanela {
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Minha Janela");
+        frame.setSize(400, 300);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null); // Centraliza
+        frame.setVisible(true);
+    }
+}
